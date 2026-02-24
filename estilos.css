@@ -195,8 +195,9 @@ section {
     font-weight: 600;
     color: var(--color-light);
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.05em;
     padding-bottom: 4px;
+    padding: 0.5rem 0.75rem;
     border-bottom: 2px solid transparent;
     transition: color var(--transition), border-color var(--transition);
 }

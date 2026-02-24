@@ -281,3 +281,57 @@ section {
     font-size: var(--fs-sm);
 }
 
+/*** SECCION SOBRE MI ***/
+
+#about {
+    background-color: var(--color-light);
+}
+.about-content {
+    display: flex;
+    gap: var(--space-lg);
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-text p::first-line {
+    font-weight: 700;
+    color: var(--color-blue);
+}
+
+.about-details {
+    flex: 1;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    padding: var(--space-md);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+}
+
+.about-details h3 {
+    color: var(--color-sky);
+    font-size: var(--fs-md);
+    margin-bottom: var(--space-sm);
+}
+
+.about-details ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.about-details ul li {
+    font-size: var(--fs-sm);
+    padding: var(--space-xs) 0;
+    border-bottom: 1px solid rgba(168, 218, 220, 0.2);
+}
+
+.about-details ul li:last-child {
+    border-bottom: none;
+}
+
+.about-details strong {
+    color: var(--color-sky);
+}

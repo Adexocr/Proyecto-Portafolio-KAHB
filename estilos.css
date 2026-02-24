@@ -340,10 +340,14 @@ section {
 /** SECCION HABILIDADES **/
 
 #skills {
-    background-color: var(--color-red);
-    border-radius: var(--radius-xl);
-    box-shadow: 0 8px 32px rgba(29, 53, 87, 0.35);
-    margin: var(--space-xl) auto;
+    background-color: var(--color-blue);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 32px rgba(31, 55, 88, 0.35);
+    margin: var(--space-xl) var(--space-md);
+    padding: var(--space-lg) var(--space-md);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #skills h2 {

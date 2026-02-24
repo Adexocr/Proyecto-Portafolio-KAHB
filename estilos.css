@@ -339,7 +339,7 @@ section {
 /** SECCION HABILIDADES **/
 
 #skills {
-    background-color: var(--color-dark);
+    background-color: var(--color-blue);
 }
 
 #skills h2 {
@@ -363,7 +363,7 @@ section {
     min-width: 180px;
 }
 .skills-group h3 {
-    color: var(--color-sky);
+    color: var(--color-red);
     font-size: var(--fs-base);
     text-transform: uppercase;
     letter-spacing: 0.1em;

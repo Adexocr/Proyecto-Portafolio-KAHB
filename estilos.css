@@ -205,3 +205,79 @@ section {
     border-bottom-color: var(--color-sky);
 }
  
+/*Layout con el flexbox*/
+/*** SECCION HERO ***/
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-md);
+    min-height: 100vh;
+    max-width: 100%;
+    padding: var(--space-lxl) var(--space-lg);
+    background: linear-gradient(135deg, var(--color-dark)60%, var(--color-blue)100%);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    max-width: 600px;
+
+}
+
+.hero-greeting {
+    font-family: var(--font-body);
+    font-size: var(--fs-md);
+    color: var(--color-sky);
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+#hero h1 {
+    font-size: var(--fs-hero);
+    color: var(--color-light);
+    line-height: 1.1;
+}
+#hero h2 {
+    font-size: var(--fs-lg);
+    color: var(--color-sky);
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.hero-description {
+    font-size: var(--fs-md);
+    color: var(--color-light);
+    opacity: 0.85;
+    max-width: 480px;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xs);
+    flex-shrink: 0;
+}
+
+.hero-image img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--color-sky);
+    box-shadow: var(--shadow-hover);
+
+}
+
+.hero-image figcaption {
+    font-family: var(--font-title);
+    font-style: italic;
+    color: var(--color-sky);
+    font-size: var(--fs-sm);
+}
+

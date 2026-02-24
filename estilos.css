@@ -175,7 +175,7 @@ section {
     font-size: var(--fs-lg);
     font-weight: 700;
     font-style: italic;
-    color: var(--color-light);
+    color: var(--color-red);
     transition: color var(--transition);
 
 }
@@ -341,6 +341,9 @@ section {
 
 #skills {
     background-color: var(--color-blue);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 32px rgba(29, 53, 87, 0.35);
+    margin: var(--space-md) auto;
 }
 
 #skills h2 {

@@ -45,7 +45,7 @@ body {
     font-size: var(--fs-base);
     color: var(--color-dark);
     background-color: var(--color-light);
-    line-height: 1.7;
+    line-height: 1.9;
 }
 
 img {
@@ -65,8 +65,8 @@ a {
 
 h1,h2,h3,h4{
     font-family: var(--font-title);
-    font-weight: 700;
-    line-height: 1.2;
+    font-weight: 650;
+    line-height: 2.0;
     color:var(--color-dark);
 }
  
@@ -74,16 +74,16 @@ h1 {
     font-size: var(--fs-hero);
 }
 h2 {
-    font-size: var(--fs-xl);
+    font-size: var(--fs-lg);
     margin-bottom: var(--space-md)  
 }
 h3 {
-    font-size: var(--fs-lg);
+    font-size: var(--fs-md);
 }
 p {
     font-family: var(--font-body);
     font-size: var(--fs-base);
-    line-height: 1.8;
+    line-height: 2.0;
     margin-bottom: var(--space-md);
 }
 
@@ -103,7 +103,7 @@ section > h2::after {
     width: 60px;
     height: 4px;
     background-color: var(--color-red);
-    border-radius: 2px;
+    border-radius: 6px;
 }
 
 /*Layout general*/
@@ -121,12 +121,12 @@ section {
     color: var(--color-light);
     font-family: var(--font-body);
     font-size: var(--fs-base);
-    font-weight: 700;
-    letter-spacing: 0.05em;
+    font-weight: 800;
+    letter-spacing: 0.10em;
     text-transform: uppercase;
-    padding: 0.875rem 2rem;
-    border-radius: var(--radius);
-    border: 2px solid var(--color-red);
+    padding: 0.5rem 1.25rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-red);
     transition: background-color var(--transition), color var(--transition);
 }
 .btn-primary:hover {

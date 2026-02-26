@@ -247,8 +247,8 @@ section {
 }
 #hero h2 {
     font-size: var(--fs-lg);
-    color: var(--color-sky);
-    font-weight: 400;
+    color: var(--color-light);
+    font-weight: 300;
     font-style: italic;
     margin-bottom: 0;
 }

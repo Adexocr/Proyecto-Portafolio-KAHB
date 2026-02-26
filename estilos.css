@@ -51,7 +51,7 @@ body {
 img {
     max-width: 50%;
     display: block;
-    border-radius: 800px;
+    border-radius: 500px;
     
 
 }
@@ -272,10 +272,10 @@ section {
     width: 420px;
     height: 420px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid var(--color-red);
+    border-radius: 100%;
+    border: 2px solid var(--color-red);
     box-shadow: var(--shadow-hover);
-    margin-left: auto;
+    margin-left: var(--space-xl);
 
 }
 

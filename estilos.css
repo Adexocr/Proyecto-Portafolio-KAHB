@@ -49,8 +49,11 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     display: block;
+    border-radius: 800px;
+    
+
 }
 
 ul {
@@ -272,6 +275,7 @@ section {
     border-radius: 50%;
     border: 5px solid var(--color-sky);
     box-shadow: var(--shadow-hover);
+    margin-left: auto;
 
 }
 

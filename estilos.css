@@ -269,11 +269,11 @@ section {
 }
 
 .hero-image img {
-    width: 320px;
-    height: 320px;
+    width: 420px;
+    height: 420px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid var(--color-sky);
+    border: 5px solid var(--color-red);
     box-shadow: var(--shadow-hover);
     margin-left: auto;
 

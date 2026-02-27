@@ -98,6 +98,7 @@ section > h2 {
     margin-bottom: var(--space-md);
 }
 
+/*Decoracion*/
 section > h2::after {
     content: "";
     position: absolute;
@@ -302,8 +303,8 @@ section {
 }
 
 .about-text p::first-line {
-    font-weight: 700;
-    color: var(--color-blue);
+    font-weight: 400;
+    color: var(--color-dark);
 }
 
 .about-details {
@@ -359,28 +360,28 @@ section {
 }
 
 #skills h2::after {
-    background-color: var(--color-sky);
+    background-color: var(--color-red);
 }
 
 .skills-container {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--space-md);
-    justify-content: space-between;
+    gap: 1rem;
+    justify-content: space-around;
 }
 
 .skills-group {
     
     flex: 1;
-    min-width: 180px;
+    min-width: 150px;
 }
 .skills-group h3 {
-    color: var(--color-sky);
+    color: var(--color-light);
     font-size: var(--fs-base);
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: var(--space-sm);
-    font-style: italic;
+    letter-spacing: 0.03em;
+    margin-bottom: var(--space-xs);
+    font-weight: 700;
 }
 
 .skills-list {
@@ -391,12 +392,12 @@ section {
 
 .skill-badge {
     background-color: rgba(168, 218, 220, 0.2);
-    color: var(--color-light);
+    color: var(--color-dark);
     font-family: var(--font-body);
-    font-size: var(--fs-sm);
-    padding: 0.375rem 0.875rem;
+    font-size: var(--fs-xs);
+    padding: 0.15rem 0.7rem;
     border-radius: 999px;
-    border: 1px solid var(--color-sky);
+    border: 1px solid var(--color-red);
     transition: background-color var(--transition), color var(--transition);
 }
 .skill-badge:hover {

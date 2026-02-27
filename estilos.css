@@ -174,16 +174,14 @@ section {
     padding: var(--space-md) var(--space-md);
 }
 .navbar .logo {
-    font-family: var(--font-title);
-    font-size: var(--fs-lg);
-    font-weight: 700;
-    font-style: italic;
-    color: var(--color-red);
-    transition: color var(--transition);
-
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
 }
-.navbar .logo:hover {
-    color: var(--color-sky);
+.navbar .logo img {
+    width: auto;
+    height: 50px;
+    object-fit: contain;
 }
 
 .nav-menu {
@@ -207,6 +205,10 @@ section {
 .nav-menu > li > a:hover {
     color: var(--color-sky);
     border-bottom-color: var(--color-sky);
+}
+/*Ajute de scroll para secciones*/
+#hero, #about, #skills, #projects {
+    scroll-margin-top: 50px;
 }
  
 /*Layout con el flexbox*/

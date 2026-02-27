@@ -83,7 +83,7 @@ h3 {
 }
 p {
     font-family: var(--font-body);
-    font-size: var(--fs-base);
+    font-size: var(--fs-xs);
     line-height: 1.9;
     margin-bottom: var(--space-md);
 }
@@ -162,8 +162,8 @@ section {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: var(--color-dark);
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    background-color: var(--color-blue);
+    box-shadow: 0 2px 12px rgba(254, 4, 4, 0.2);
 }
 .navbar {
     display: flex;
@@ -194,13 +194,13 @@ section {
 
 .nav-menu > li > a {
     font-family: var(--font-body);
-    font-size: var(--fs-sm);
-    font-weight: 600;
+    font-size: var(--fs-xs);
+    font-weight: 300; 
     color: var(--color-light);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding-bottom: 4px;
-    padding: 0.5rem 0.75rem;
+    letter-spacing: 0.03em;
+    padding-bottom: var(--space-xs);
+    padding: 0.3rem 0.5rem;
     border-bottom: 2px solid transparent;
     transition: color var(--transition), border-color var(--transition);
 }
@@ -247,16 +247,16 @@ section {
 }
 #hero h2 {
     font-size: var(--fs-lg);
-    color: var(--color-light);
-    font-weight: 300;
-    font-style: italic;
+    color: var(--color-sky);
+    font-weight: 200;
+    font-style: oblique 12deg;
     margin-bottom: 0;
 }
 
 .hero-description {
     font-size: var(--fs-md);
     color: var(--color-light);
-    opacity: 0.85;
+    opacity: 0.65;
     max-width: 480px;
 }
 
@@ -301,9 +301,17 @@ section {
     flex: 2;
 }
 
+.about-text p {
+    max-width: 800px;
+    line-height: 1.8;
+}
+
 .about-text p::first-line {
-    font-weight: 400;
+    font-weight: bold;
+    font-size: 0.770em;
     color: var(--color-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
 }
 
 .about-details {
@@ -316,9 +324,9 @@ section {
 }
 
 .about-details h3 {
-    color: var(--color-sky);
-    font-size: var(--fs-md);
-    margin-bottom: var(--space-sm);
+    color: var(--color-light);
+    font-size: var(--fs-sm);
+    margin-bottom: var(--space-xs);
 }
 
 .about-details ul {
@@ -338,7 +346,7 @@ section {
 }
 
 .about-details strong {
-    color: var(--color-sky);
+    color: var(--color-red);
 }
 
 /** SECCION HABILIDADES **/

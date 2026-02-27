@@ -375,7 +375,7 @@ section {
     min-width: 180px;
 }
 .skills-group h3 {
-    color: var(--color-red);
+    color: var(--color-sky);
     font-size: var(--fs-base);
     text-transform: uppercase;
     letter-spacing: 0.1em;

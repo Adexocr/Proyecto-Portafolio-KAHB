@@ -71,7 +71,7 @@ a {
 
 h1,h2,h3,h4{
     font-family: var(--font-title);
-    font-weight: 650;
+    font-weight: 600;
     line-height: 2.0;
     color:var(--color-dark);
 }
@@ -154,7 +154,7 @@ section {
     text-transform: uppercase;
     padding: 0.5rem 1.25rem;
     border-radius: 999px;
-    border: 2.9px double var(--color-dark);;
+    border: 3.9px double var(--color-dark);;
     transition: background-color var(--transition), color var(--transition);
 }
 .btn-secondary:hover {
@@ -168,7 +168,7 @@ section {
     top: 0;
     z-index: 100;
     background-color: var(--color-blue);
-    box-shadow: 0 2px 12px rgba(254, 4, 4, 0.2);
+    box-shadow: 0 2px 12px rgba(19, 76, 150, 0.932);
 }
 .navbar {
     display: flex;
@@ -176,7 +176,9 @@ section {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: var(--spacing-md) var(--spacing-md);
+    height: 60px;
+    padding: 0 var(--spacing-md);
+    box-sizing: border-box;
 }
 .navbar .logo {
     display: flex;
@@ -187,6 +189,7 @@ section {
     width: auto;
     height: 50px;
     object-fit: contain;
+    border-radius: 7px;
 }
 
 .nav-menu {
@@ -197,7 +200,7 @@ section {
 
 .nav-menu > li > a {
     font-family: var(--font-body);
-    font-size: var(--fs-xs);
+    font-size: var(--fs-small);
     font-weight: 300; 
     color: var(--color-light);
     text-transform: uppercase;
@@ -213,7 +216,7 @@ section {
 }
 /*Ajute de scroll para secciones*/
 #hero, #about, #skills, #projects {
-    scroll-margin-top: 50px;
+    scroll-margin-top: 1px;
 }
  
 /*Layout con el flexbox*/
@@ -653,6 +656,7 @@ section {
     /*Nav bar*/
     .navbar {
         flex-direction: column;
+        height: auto;
         gap: var(--spacing-sm);
         padding: var(--spacing-sm);
         text-align: center;
@@ -662,6 +666,10 @@ section {
         justify-content: center;
         gap: var(--spacing-sm);
     }
+
+    #hero, #about, #skills, #projects {
+    scroll-margin-top: 50px;
+}
 
     /*Seccion hero*/
     #hero {

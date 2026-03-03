@@ -791,10 +791,10 @@ h1 {
     }
     /*Seccion proyectos 3 columnas*/
     .projects-card {
-        flex: 1;
-        min-width: calc(33.333% - var(--space-md) - 0.5rem);
-        max-width: calc(33.333% - var(--space-md) - 0.5rem);
-    }
+        flex: 0 1 calc(33.333% - var(--space-md) - 0.5rem);
+
+        min-width: 280px;
+        max-width: 360px;
 
     /*Nav bar*/
     .nav-menu {

@@ -81,7 +81,7 @@ h1 {
 }
 h2 {
     font-size: var(--fs-lg);
-    margin-bottom: var(--space-md)  
+    margin-bottom: var(--spacing-md)  
 }
 h3 {
     font-size: var(--fs-md);
@@ -90,7 +90,7 @@ p {
     font-family: var(--font-body);
     font-size: var(--fs-xs);
     line-height: 1.9;
-    margin-bottom: var(--space-md);
+    margin-bottom: var(--spacing-md);
 }
 
 /*Decoracion de los titulos de seccion*/
@@ -98,8 +98,8 @@ section > h2 {
     
     position: relative;
     display: inline-block;
-    padding-bottom: var(--space-xs);
-    margin-bottom: var(--space-md);
+    padding-bottom: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
 }
 
 /*Decoracion configuracion*/
@@ -117,7 +117,7 @@ section > h2::after {
 /*Layout general*/
 
 section {
-    padding: var(--space-xl) var(--space-md);
+    padding: var(--spacing-xl) var(--spacing-md);
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -176,12 +176,12 @@ section {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: var(--space-md) var(--space-md);
+    padding: var(--spacing-md) var(--spacing-md);
 }
 .navbar .logo {
     display: flex;
     align-items: center;
-    gap: var(--space-xs);
+    gap: var(--spacing-xs);
 }
 .navbar .logo img {
     width: auto;
@@ -191,7 +191,7 @@ section {
 
 .nav-menu {
     display: flex;
-    gap: var(--space-md);
+    gap: var(--spacing-md);
     align-items: center;
 }
 
@@ -223,10 +223,10 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: var(--space-md);
+    gap: var(--spacing-md);
     min-height: 100vh;
     max-width: 100%;
-    padding: var(--space-lxl) var(--space-lg);
+    padding: var(--spacing-lxl) var(--spacing-lg);
     background: linear-gradient(135deg, var(--color-dark)60%, var(--color-blue)100%);
 }
 
@@ -234,7 +234,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: var(--space-sm);
+    gap: var(--spacing-sm);
     max-width: 600px;
 
 }
@@ -325,7 +325,7 @@ section {
     flex: 1;
     background-color: var(--color-dark);
     color: var(--color-light);
-    padding: var(--space-md);
+    padding: var(--spacing-md);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow);
 }
@@ -333,18 +333,18 @@ section {
 .about-details h3 {
     color: var(--color-light);
     font-size: var(--fs-sm);
-    margin-bottom: var(--space-xs);
+    margin-bottom: var(--spacing-xs);
 }
 
 .about-details ul {
     display: flex;
     flex-direction: column;
-    gap: var(--space-xs);
+    gap: var(--spacing-xs);
 }
 
 .about-details ul li {
     font-size: var(--fs-sm);
-    padding: var(--space-xs) 0;
+    padding: var(--spacing-xs) 0;
     border-bottom: 1px solid rgba(168, 218, 220, 0.2);
 }
 
@@ -362,8 +362,8 @@ section {
     background-color: var(--color-blue);
     border-radius: var(--radius-lg);
     box-shadow: 0 8px 32px rgba(31, 55, 88, 0.35);
-    margin: var(--space-xl) var(--space-md);
-    padding: var(--space-lg) var(--space-md);
+    margin: var(--spacing-xl) var(--spacing-md);
+    padding: var(--spacing-lg) var(--spacing-md);
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -429,7 +429,7 @@ section {
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    gap: calc(var(--space-md) + 0.5rem);
+    gap: calc(var(--spacing-md) + 0.5rem);
     justify-content: center;
 }
 .project-card {
@@ -472,10 +472,10 @@ section {
     display: none;
 }
 .project-info {
-    padding: calc(var(--space-md) + 0.5rem);
+    padding: calc(var(--spacing-md) + 0.5rem);
     display: flex;
     flex-direction: column;
-    gap: calc(var(--space-xs) + 0.25rem);
+    gap: calc(var(--spacing-xs) + 0.25rem);
     flex: 1;
     justify-content: space-between;
 }
@@ -523,16 +523,16 @@ section {
 #footer {
     background-color: var(--color-dark);
     color: var(--color-light);
-    padding: var(--space-lg) var(--space-md) var(--space-md);
+    padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md);
 }
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: var(--space-md);
+    gap: var(--spacing-md);
     max-width: 1200px;
-    margin: 0 auto var(--space-md);
-    padding-bottom: var(--space-md);
+    margin: 0 auto var(--spacing-md);
+    padding-bottom: var(--spacing-md);
     border-bottom: 1px solid rgba(168, 218, 220, 0.2);
 }
 
@@ -727,14 +727,14 @@ h1 {
 }
 .nav-menu {
     flex-wrap: nowrap;
-    gap: var(--space-md);
+    gap: var(--spacing-md);
 }
 
 /*Seccion hero*/
 #hero {
     flex-direction: row;
     text-align: left;
-    padding: var(--space-xl) var(--space-md);
+    padding: var(--spacing-xl) var(--spacing-md);
 }
 .hero-content {
     align-items: flex-start;
@@ -768,8 +768,8 @@ h1 {
 
 .project-card {
     flex: 1;
-    min-width: calc(50% - var(--space-md))- 0.5rem;
-    max-width: calc(50% - var(--space-md)) - 0.5rem;
+    min-width: calc(50% - var(--spacing-md))- 0.5rem;
+    max-width: calc(50% - var(--spacing-md)) - 0.5rem;
 }
 
 /*Footer*/
@@ -796,14 +796,14 @@ h1 {
     }
     /*Seccion proyectos 3 columnas*/
     .projects-card {
-        flex: 0 1 calc(33.333% - var(--space-md) - 0.5rem);
+        flex: 0 1 calc(33.333% - var(--spacing-md) - 0.5rem);
 
         min-width: 280px;
         max-width: 360px;
 
     /*Nav bar*/
     .nav-menu {
-        gap: var(--space-md);
+        gap: var(--spacing-md);
     }
 }
 

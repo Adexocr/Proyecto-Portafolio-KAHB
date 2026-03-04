@@ -734,7 +734,10 @@ section {
     .about-content {
         flex-direction: column;
     }
-
+    .about-details {
+        margin-right: 0;
+        width: 100%;
+    }
     /*Seccion habilidades*/
     .skills-container {
         flex-direction: column;

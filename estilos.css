@@ -115,7 +115,7 @@ section > h2::after {
 /*Layout general*/
 
 section {
-    padding: var(--spacing-xl) var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-xs);
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -224,10 +224,10 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: var(--spacing-md);
+    gap: var(--spacing-xl);
     min-height: 100vh;
     max-width: 100%;
-    padding: var(--spacing-lxl) var(--spacing-lg);
+    padding: var(--spacing-md) var(--spacing-md);
     background: linear-gradient(135deg, var(--color-dark)60%, var(--color-blue)100%);
 }
 
@@ -283,8 +283,6 @@ section {
     border-radius: 50%;
     border: 2px solid var(--color-red);
     box-shadow: var(--shadow-hover);
-    margin-left: var(--spacing-xl);
-
 }
 
 .hero-image figcaption {
@@ -292,6 +290,7 @@ section {
     font-style: italic;
     color: var(--color-sky);
     font-size: var(--fs-small);
+    text-align: center;
 }
 
 /*** SECCION SOBRE MI ***/
@@ -524,7 +523,7 @@ section {
 #footer {
     background-color: var(--color-dark);
     color: var(--color-light);
-    padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-sm) var(--spacing-sm);
 }
 .footer-content {
     display: flex;

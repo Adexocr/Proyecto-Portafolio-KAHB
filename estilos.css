@@ -695,13 +695,20 @@ section {
         justify-content: center;
         gap: var(--spacing-sm);
     }
+    .navbar .logo img {
+    margin-left: 0;
+    }
+
+    .nav-menu {
+    margin-right: 0;
+    }
 
     #hero, #about, #skills, #projects {
     scroll-margin-top: 130px;
-}
-.project-card:hover figure img {
+    }
+    .project-card:hover figure img {
     transform: scale(1.075);
-}
+    }
     /*Seccion hero*/
     #hero {
         flex-direction: column;

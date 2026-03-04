@@ -362,8 +362,8 @@ section {
     background-color: var(--color-blue);
     border-radius: var(--radius-lg);
     box-shadow: 0 8px 32px rgba(31, 55, 88, 0.35);
-    margin: var(--spacing-xl) var(--spacing-md);
-    padding: var(--spacing-lg) var(--spacing-md);
+    margin: var(--spacing-md) var(--spacing-xs);
+    padding: var(--spacing-md) var(--spacing-xs);
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;

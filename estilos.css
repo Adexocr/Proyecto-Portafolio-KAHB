@@ -361,7 +361,7 @@ section {
 #skills {
     background-color: var(--color-blue);
     border-radius: var(--radius-lg);
-    box-shadow: 0 8px 32px rgba(31, 55, 88, 0.35);
+    box-shadow: 0 8px 32px rgba(17, 79, 167, 0.815);
     margin: var(--spacing-md) var(--spacing-xs);
     padding: var(--spacing-md) var(--spacing-xs);
     max-width: 1200px;

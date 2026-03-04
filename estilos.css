@@ -148,7 +148,7 @@ section {
     background-color: transparent;
     color: var(--color-red);
     font-family: var(--font-body);
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -293,7 +293,7 @@ section {
     font-family: var(--font-title);
     font-style: italic;
     color: var(--color-sky);
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
 }
 
 /*** SECCION SOBRE MI ***/
@@ -335,7 +335,7 @@ section {
 
 .about-details h3 {
     color: var(--color-light);
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
     margin-bottom: var(--spacing-xs);
 }
 
@@ -346,7 +346,7 @@ section {
 }
 
 .about-details ul li {
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
     padding: var(--spacing-xs) 0;
     border-bottom: 1px solid rgba(168, 218, 220, 0.2);
 }
@@ -493,7 +493,7 @@ section {
     background-color: var(--color-red);
 }
 .project-info p {
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
     color: #555;
     margin-bottom: 0;
 }
@@ -549,7 +549,7 @@ section {
 }
 
 .footer-brand p.last-child {
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
     opacity: 0.7;
     margin-bottom: 0;
 }
@@ -561,7 +561,7 @@ section {
 }
 
 .footer-nav a, .footer-social a {
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
     color: var(--color-light);
     transition: color var(--transition) color var(--transition);
     opacity: 0.75;
@@ -573,14 +573,14 @@ section {
 
 .footer-copy {
     text-align: center;
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
     opacity: 0.5;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .footer-tagline {
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
     font-style: italic;
     color: var(--color-sky);
     opacity: 0.8;
@@ -590,7 +590,7 @@ section {
 .footer-nav h3,
 .footer-social h3 {
     color: var(--color-sky);
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-bottom: var(--spacing-sm);
@@ -608,7 +608,7 @@ section {
     display: flex;
     align-items: center;
     gap: var(--spacing-xs);
-    font-size: var(--fs-sm);
+    font-size: var(--fs-small);
     color: var(--color-light);
     opacity: 0.75;
     transition: opacity var(--transition), color var(--transition), transform var(--transition);

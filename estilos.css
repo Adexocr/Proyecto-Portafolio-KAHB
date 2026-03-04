@@ -197,6 +197,7 @@ section {
     display: flex;
     gap: var(--spacing-md);
     align-items: center;
+    margin-right: -2.5rem;
 }
 
 .nav-menu > li > a {
@@ -332,6 +333,7 @@ section {
     padding: var(--spacing-xs);
     border-radius: 16px;
     box-shadow: 0 8px 32px rgba(59, 159, 177, 0.815);
+    margin-right: -0.7rem;
 }
 
 .about-details h3 {

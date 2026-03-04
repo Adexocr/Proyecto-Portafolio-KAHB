@@ -568,10 +568,8 @@ section {
 .footer-nav a, .footer-social a {
     font-size: var(--fs-small);
     color: var(--color-light);
-    transition: color var(--transition) color var(--transition);
+    transition: color var(--transition);
     opacity: 0.75;
-}
-.footer-nav a {
     position: relative;
     padding-bottom: 2px;
 }
@@ -596,6 +594,7 @@ section {
     color: var(--color-sky);
     opacity: 1;
 }
+
 .footer-copy {
     text-align: center;
     font-size: var(--fs-small);

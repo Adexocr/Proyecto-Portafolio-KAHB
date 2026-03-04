@@ -174,7 +174,7 @@ section {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: 60px;
+    height: 50px;
     padding: 0 var(--spacing-md);
     box-sizing: border-box;
 }
@@ -185,7 +185,7 @@ section {
 }
 .navbar .logo img {
     width: auto;
-    height: 50px;
+    height: 40px;
     object-fit: contain;
     border-radius: 0;
 }
@@ -214,7 +214,7 @@ section {
 }
 /*Ajute de scroll para secciones*/
 #hero, #about, #skills, #projects {
-    scroll-margin-top: 1px;
+    scroll-margin-top: 10px;
 }
  
 /*Layout con el flexbox*/
@@ -309,13 +309,13 @@ section {
 }
 
 .about-text p {
-    max-width: 800px;
+    max-width: 1000px;
     line-height: 1.8;
 }
 
 .about-text p::first-line {
     font-weight: bold;
-    font-size: 0.770em;
+    font-size: 1em;
     color: var(--color-dark);
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -323,16 +323,17 @@ section {
 
 .about-details {
     flex: 1;
+    margin: 0 auto;
     background-color: var(--color-dark);
     color: var(--color-light);
-    padding: var(--spacing-md);
+    padding: var(--spacing-xs);
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow);
+    box-shadow: 0 8px 32px rgba(59, 159, 177, 0.815);
 }
 
 .about-details h3 {
     color: var(--color-light);
-    font-size: var(--fs-small);
+    font-size: var(--fs-md);
     margin-bottom: var(--spacing-xs);
 }
 
@@ -425,6 +426,8 @@ section {
 
 #projects {
     background-color: var(--color-light);
+    border-radius: 9px;
+    box-shadow:0 8px 32px rgba(53, 176, 233, 0.726)
 }
 
 .projects-container {
@@ -449,7 +452,7 @@ section {
 }
 
 .project-card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-14px);
     box-shadow: var(--shadow-hover);
     z-index: 2;
 }
@@ -466,7 +469,7 @@ section {
 }
 
 .project-card:hover figure img {
-    transform: scale(1.05);
+    transform: scale(1.3);
 }
 
 .project-card figcaption {
@@ -501,6 +504,7 @@ section {
     flex-wrap: wrap;
     gap: 0.375rem;
     margin: var(--spacing-xs);
+    justify-content: space-between;
 }
 
 .project-tags li {
@@ -512,6 +516,7 @@ section {
     border-radius: 999px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    box-shadow: 0 4px 16px rgba(53, 188, 241, 0.815);
 }
 
 .project-links {
@@ -524,13 +529,13 @@ section {
 #footer {
     background-color: var(--color-dark);
     color: var(--color-light);
-    padding: var(--spacing-md) var(--spacing-sm) var(--spacing-sm);
+    padding: var(--spacing-xs) var(--spacing-sm) var(--spacing-sm);
 }
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: var(--spacing-md);
+    gap: var(--spacing-xs);
     max-width: 1200px;
     margin: 0 auto var(--spacing-md);
     padding-bottom: var(--spacing-md);
@@ -666,9 +671,11 @@ section {
     }
 
     #hero, #about, #skills, #projects {
-    scroll-margin-top: 50px;
+    scroll-margin-top: 70px;
 }
-
+.project-card:hover figure img {
+    transform: scale(1.075);
+}
     /*Seccion hero*/
     #hero {
         flex-direction: column;
@@ -774,9 +781,8 @@ h1 {
 }
 
 .project-card {
-    flex: 1;
-    min-width: calc(50% - var(--spacing-md))- 0.5rem;
-    max-width: calc(50% - var(--spacing-md)) - 0.5rem;
+    flex: 0 1 calc(50% - 1.5rem);
+    min-width: 280px;
 }
 
 /*Footer*/

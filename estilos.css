@@ -309,16 +309,16 @@ section {
 }
 
 .about-text p {
-    max-width: 1000px;
-    line-height: 1.8;
+    max-width: 850px;
+    line-height: 2.0;
 }
 
 .about-text p::first-line {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.9em;
     color: var(--color-dark);
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
 }
 
 .about-details {
@@ -327,7 +327,7 @@ section {
     background-color: var(--color-dark);
     color: var(--color-light);
     padding: var(--spacing-xs);
-    border-radius: var(--radius-lg);
+    border-radius: 16px;
     box-shadow: 0 8px 32px rgba(59, 159, 177, 0.815);
 }
 
@@ -361,7 +361,7 @@ section {
 
 #skills {
     background-color: var(--color-blue);
-    border-radius: var(--radius-lg);
+    border-radius: 16px;
     box-shadow: 0 8px 32px rgba(17, 79, 167, 0.815);
     margin: var(--spacing-md) var(--spacing-xs);
     padding: var(--spacing-md) var(--spacing-xs);
@@ -426,7 +426,7 @@ section {
 
 #projects {
     background-color: var(--color-light);
-    border-radius: 9px;
+    border-radius: 16px;
     box-shadow:0 8px 32px rgba(53, 176, 233, 0.726)
 }
 
@@ -477,7 +477,7 @@ section {
     display: none;
 }
 .project-info {
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
     display: flex;
     flex-direction: column;
     gap: calc(var(--spacing-xs) + 0.25rem);
@@ -517,6 +517,7 @@ section {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     box-shadow: 0 4px 16px rgba(53, 188, 241, 0.815);
+    justify-content: space-evenly;
 }
 
 .project-links {

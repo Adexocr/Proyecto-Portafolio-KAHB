@@ -381,22 +381,22 @@ section {
 .skills-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: space-around;
+    gap: 8rem;
+    justify-content: space-between;
 }
 
 .skills-group {
     
     flex: 1;
-    min-width: 150px;
+    min-width: 120px;
 }
 .skills-group h3 {
     color: var(--color-light);
-    font-size: var(--fs-base);
+    font-size: var(--fs-md);
     text-transform: uppercase;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.05em;
     margin-bottom: var(--spacing-xs);
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .skills-list {
@@ -406,14 +406,15 @@ section {
 }
 
 .skill-badge {
-    background-color: rgba(168, 218, 220, 0.2);
+    background-color: rgba(58, 138, 230, 0.938);
     color: var(--color-dark);
     font-family: var(--font-body);
     font-size: var(--fs-xs);
     padding: 0.15rem 0.7rem;
     border-radius: 999px;
-    border: 1px solid var(--color-red);
+    border: 5px double var(--color-sky);
     transition: background-color var(--transition), color var(--transition);
+    box-shadow: 0 8px 32px rgba(53, 176, 233, 0.726);
 }
 .skill-badge:hover {
     background-color: var(--color-sky);

@@ -49,9 +49,7 @@ body {
 }
 
 img {
-    max-width: 50%;
     display: block;
-    border-radius: 500px;
 }
 
 .project-card figure img {
@@ -189,7 +187,7 @@ section {
     width: auto;
     height: 50px;
     object-fit: contain;
-    border-radius: 7px;
+    border-radius: 0;
 }
 
 .nav-menu {
@@ -282,7 +280,7 @@ section {
     width: 420px;
     height: 420px;
     object-fit: cover;
-    border-radius: 100%;
+    border-radius: 50%;
     border: 2px solid var(--color-red);
     box-shadow: var(--shadow-hover);
     margin-left: var(--spacing-xl);
@@ -689,6 +687,7 @@ section {
     .hero-image img {
         width: 220px;
         height: 220px;
+        margin-left: 0;
     }
 
     /*Seccion sobre mi*/

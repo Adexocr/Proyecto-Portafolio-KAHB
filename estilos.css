@@ -187,7 +187,10 @@ section {
     width: auto;
     height: 40px;
     object-fit: contain;
-    border-radius: 0;
+    border-radius: 50%;
+    margin-left: -2rem;
+    border: 2px solid var(--color-red);
+
 }
 
 .nav-menu {
